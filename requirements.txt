@@ -1,0 +1,15 @@
+# Core runtime (always needed)
+fastapi>=0.110
+uvicorn>=0.27
+pydantic>=2.6
+requests>=2.31
+numpy>=1.26
+
+# RAG stack (needed for full functionality)
+ollama>=0.1.7
+sentence-transformers>=2.5
+faiss-cpu>=1.7.4
+
+# Development
+pytest>=8.0
+pytest-cov>=4.1
